@@ -1,3 +1,6 @@
+# Developed by : RAMYA R
+# Register NUmber: 212223230169
+
 def is_goal_state(current_state, goal_state):
     return current_state == goal_state
 
@@ -65,5 +68,6 @@ actions = {
 plan = find_plan(initial_state, goal_state, actions)
 print(plan)
 '''
+
 
 
